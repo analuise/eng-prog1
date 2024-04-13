@@ -46,6 +46,13 @@ int main() {
     }
     else if (op == 7) // Área do Círculo
     {
+        printf("\nEntre com o raio do círculo: ");
+        float raio;
+
+        scanf("%f", &raio);
+
+        float area = calcula_area_circulo(raio);
+        printf("\nÁrea: %.2f\n", area);
     }
     else
     {
