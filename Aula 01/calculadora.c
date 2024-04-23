@@ -144,22 +144,58 @@ int main(int argc, char *argv[])
     else if (strcmp(comando, "2") == 0)
     {
         // Subtração
+        int num1, num2;
+        printf("Parâmetro 1: ");
+        scanf("%d", &num1);
+        printf("Parâmetro 2: ");
+        scanf("%d", &num2);
+        int resposta = subtracao(num1, num2);
+        printf("subtracao(%d,%d) = %d\n", num1, num2, resposta);
     }
     else if (strcmp(comando, "3") == 0)
     {
         // Multiplicação
+        int num1, num2;
+        printf("Parâmetro : ");
+        scanf("%d", &num1);
+        printf("Parâmetro 2: ");
+        scanf("%d", &num2);
+        int resposta = multiplicacao(num1, num2);
+        printf("multiplicacao(%d,%d) = %d\n", num1, num2, resposta);
+
     }
     else if (strcmp(comando, "4") == 0)
     {
         // Divisão
+        int num1, num2;
+        printf("Parâmetro 1: ");
+        scanf("%d", &num1);
+        printf("Parâmetro 2: ");
+        scanf("%d", &num2);
+        int resposta = divisao(num1, num2);
+        printf("divisao(%d,%d) = %d\n", num1, num2, resposta);
     }
     else if (strcmp(comando, "5") == 0)
     {
         // Divisão inteira
+        int num1, num2;
+        printf("Parâmetro 1: ");
+        scanf("%d", &num1);
+        printf("Parâmetro 2: ");
+        scanf("%d", &num2);
+        int resposta = divisao_inteira(num1, num2);
+        printf("divisao_inteira(%d,%d) = %d\n", num1, num2, resposta);
     }
     else if (strcmp(comando, "6") == 0)
     {
         // Resto de divisão inteira
+        int num1, num2;
+        printf("Parâmetro 1: ");
+        scanf("%d", &num1);
+        printf("Parâmetro 2: ");
+        scanf("%d", &num2);
+        int resposta = resto_divisao(num1, num2);
+        printf("resto_divisao(%d,%d) = %d\n", num1, num2, resposta);
     }
     else if (strcmp(comando, "7") == 0)
     {
@@ -173,6 +209,11 @@ int main(int argc, char *argv[])
     else if (strcmp(comando, "8") == 0)
     {
         // Perímetro de um círculo
+        float raio;
+        printf("Raio: ");
+        scanf("%f", &raio); // Note que precisamos definir %f porque raio é float!
+        float resposta = perimetro_circulo(raio);
+        printf("perimetro_circulo(%f) = %f\n", raio, resposta);
     }
     else // Último else caso não entre em nenhum caso.
     {
@@ -197,6 +238,7 @@ int soma(int num1, int num2)
 int subtracao(int num1, int num2)
 {
     int resposta = 0;
+    resposta = num1 - num2;
 
     return resposta;
 }
@@ -205,6 +247,7 @@ int subtracao(int num1, int num2)
 int multiplicacao(int num1, int num2)
 {
     int resposta = 0;
+    resposta = num1 * num2;
 
     return resposta;
 }
@@ -213,6 +256,7 @@ int multiplicacao(int num1, int num2)
 float divisao(int num1, int num2)
 {
     float resposta = 0;
+    resposta = num1 / num2;
 
     return resposta;
 }
@@ -221,6 +265,7 @@ float divisao(int num1, int num2)
 int divisao_inteira(int num1, int num2)
 {
     int resposta = 0;
+    resposta = num1 / num2;
 
     return resposta;
 }
@@ -229,6 +274,7 @@ int divisao_inteira(int num1, int num2)
 int resto_divisao(int num1, int num2)
 {
     int resposta = 0;
+    resposta = num1 % num2;
 
     return resposta;
 }
@@ -246,6 +292,7 @@ printf("%f\n", resposta);
 float perimetro_circulo(float raio)
 {
     float resposta = 0;
+    resposta = 2 * pi * raio;
 
     return resposta;
 }
