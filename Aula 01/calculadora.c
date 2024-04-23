@@ -107,7 +107,7 @@ int main(int argc, char *argv[])
                       // sequência de caracteres que não sabemos o tamanho e definimos como
                       // um máximo de 20.
 
-    printf("Qual o peração você deseja executar?");
+    printf("Qual operação você deseja executar?");
     printf("\n (1) soma"); // O caracter '\n' significa nova linha.
     printf("\n (2) subtração");
     printf("\n (3) multiplicação");
