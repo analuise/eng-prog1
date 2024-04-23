@@ -46,7 +46,7 @@ float divisao(int num1, int num2)
     return resposta;
 }
 
-// Implemente a função de divisão inteira (é bem óbvio)
+// Implemente a função de divisão inteira
 int divisao_inteira(int num1, int num2)
 {
     int resposta = 0;
