@@ -23,8 +23,14 @@ int multiplicacao(int num1, int num2);
 float divisao(int num1, int num2);       // Mesmo definindo que nossa divisão irá trabalhar com parâmetros como números
                                          // inteiros, precisamos retornar uma resposta em "número flutuante", que é basicamente
                                          // "números com ponto".
+
 int divisao_inteira(int num1, int num2); // Aqui adicionamos o desafio de retornar a divisão com retorno inteiro, descartando o resto.
-int resto_divisao(int num1, int num2);   // E, adicionalmente, uma vez que temos "divisao inteira" precisamos também de
-                                         // resto da divisão inteira.
+                                        // E, adicionalmente, uma vez que temos "divisao inteira" precisamos também de
+                                        // resto da divisão inteira.
+                                        
+int divisao_inteira_resto(float num1, float num2, int *resp, int *resto); 
+                                                                                
+int resto_divisao(int num1, int num2);                                          
+                                                                                
 float area_circulo(float raio);
 float perimetro_circulo(float raio);

@@ -74,7 +74,7 @@ int main(int argc, char *argv[])
     printf("\n (1) soma"); // O caracter '\n' significa nova linha.
     printf("\n (2) subtração");
     printf("\n (3) multiplicação");
-    printf("\n (4) divisão");
+    printf("\n (4) divisão inteira com resto");
     printf("\n (5) divisão inteira");
     printf("\n (6) resto de divisão inteira");
     printf("\n (7) área de um círculo");
