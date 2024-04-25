@@ -182,7 +182,7 @@ int main(int argc, char *argv[])
         float resposta = perimetro_circulo(raio);
         printf("perimetro_circulo(%f) = %f\n", raio, resposta);
     }
-    else // Último else caso não entre em nenhum caso.
+    else // Último else caso o usuário deseje encerrar a calculadora.
     {   
         printf("Encerrando calculadora!\n");
     }
