@@ -69,7 +69,11 @@ int main(int argc, char *argv[])
     char comando[20]; // Por hora não se preocupe, vamos armazenar o comando em uma
                       // sequência de caracteres que não sabemos o tamanho e definimos como
                       // um máximo de 20.
-                 
+    
+
+    while(strcmp(comando,"9") != 0){
+
+    
     printf("Qual operação você deseja executar?");
     printf("\n (1) soma"); // O caracter '\n' significa nova linha.
     printf("\n (2) subtração");
@@ -79,13 +83,14 @@ int main(int argc, char *argv[])
     printf("\n (6) resto de divisão inteira");
     printf("\n (7) área de um círculo");
     printf("\n (8) perímetro de um círculo");
+    printf("\n (9) sair");
     printf("\nFunção: ");
     scanf("%s", &comando); // Função de leitura de entrada de dados "scanf"
                            // Definimos que a entrada é um string "%s", que é equivalente a uma
                            // sequência de caracteres, como nosso "char comando[20]".
                            // &comando significa que enviamos o endereço da variável comando.
                            // Não se preocupe com isso por hora.
-
+    
   
     if (strcmp(comando, "1") == 0) // Função de comparação de strings
     {
@@ -179,10 +184,12 @@ int main(int argc, char *argv[])
     }
     else // Último else caso não entre em nenhum caso.
     {   
-        printf("Função não implementada!\n");
+        printf("Encerrando calculadora!\n");
+    }
     }
     
     return 0; // Zero é o retorno padrão e significa que tudo ocorreu como o esperado.
+    
 }
 
 
