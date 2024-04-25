@@ -6,7 +6,7 @@
  * até aqui, porém constantes são literalmente o que o nome significa,
  * definições que não podem ser modificadas no decorrer do programa.
  */
-const float pi = 3.1415; // Constante pi.
+const float pi = 3.141592; // Constante pi.
 
 // Os parâmetros de uma função são definidos entre parênteses!
 // O corpo de uma função inicia e termina com a utilização de chaves!
