@@ -2,14 +2,15 @@
 #include <stdbool.h>
 
 
-int main() {
+int main() 
+{
     int dado;
     bool continuar = true;
 
     while(continuar) 
     {
     
-        printf("Escolha um atendente: ");
+        printf("\nOpções de atendente: ");
         printf("\n0 - Falar com Natalia");
         printf("\n1 - Falar com Miriã");
         printf("\n2 - Falar com Ana");
