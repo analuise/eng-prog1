@@ -67,8 +67,8 @@ int resto_divisao(int num1, int num2)
 float area_circulo(float raio)
 {
     float resposta = pi * raio * raio; // Note que aqui estamos utilizando a constante "pi", definida no
-                                    // início de nosso arquivo, multiplicada pela variável de entrada
-                                    // "raio".
+                                       // início de nosso arquivo, multiplicada pela variável de entrada
+                                       // "raio".
 printf("%f\n", resposta);
     return resposta;
 }
