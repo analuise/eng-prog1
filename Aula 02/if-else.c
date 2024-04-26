@@ -25,6 +25,18 @@ int main() {
         printf("\n%d é maior ou igual a 10", numero);
     }
 
+    if(numero < 20) {
+        printf("\n%d é menor que 20", numero);
+    }
+    
+    else if (numero < 30) {
+        printf("\n%d é menor que 30", numero);
+    }
+
+    else {
+        printf("\n%d é maior ou igual a 30", numero);
+    }
+
     printf("\n");
 
     return 0;
