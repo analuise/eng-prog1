@@ -28,56 +28,56 @@ int main()
         switch(dado)
         {
             case 0:
-            printf("Natalia vai lhe atender ...");
+            printf("Natalia vai lhe atender ...\n");
             continuar = false;
             break;
 
             case 1:
-            printf("Miriã vai lhe atender ...");
+            printf("Miriã vai lhe atender ...\n");
             continuar = false;
             break;
 
             case 2:
-            printf("Ana vai lhe atender ...");
+            printf("Ana vai lhe atender ...\n");
             continuar = false;
             break;
 
             case 3:
-            printf("Gabriel vai lhe atender ...");
+            printf("Gabriel vai lhe atender ...\n");
             continuar = false;
             break;
 
             case 4:
-            printf("Luis vai lhe atender ...");
+            printf("Luis vai lhe atender ...\n");
             continuar = false;
             break;
 
             case 5:
-            printf("Eduardo vai lhe atender ...");
+            printf("Eduardo vai lhe atender ...\n");
             continuar = false;
             break;
 
             case 6:
-            printf("Gabriele vai lhe atender ...");
+            printf("Gabriele vai lhe atender ...\n");
             continuar = false;
             break;
 
             case 7:
-            printf("Joana vai lhe atender ...");
+            printf("Joana vai lhe atender ...\n");
             continuar = false;
             break;
 
             case 8:
-            printf("Maria vai lhe atender ...");
+            printf("Maria vai lhe atender ...\n");
             continuar = false;
             break;
         
             case 9:
-            printf("Retornando ao menu inicial ...");
+            printf("Retornando ao menu inicial ...\n");
             break;
 
             default:
-            printf("Opção inválida, tente novamente ...");
+            printf("Opção inválida, tente novamente ...\n");
             continuar = false;
             break;
         }
